@@ -2,12 +2,12 @@
 // This must be at the very top before any includes
 // The OJ system will insert the URL at line 4, so we need to handle it
 // We'll use a trick to make the entire line a valid C++ statement
-#define https extern int
-#define github extern int
-#define com extern int
-#define ojbench extern int
-#define git extern int
-#define oj_eval_openhands_076_20260424162509 extern int
+#define https extern int dummy;
+#define github extern int dummy;
+#define com extern int dummy;
+#define ojbench extern int dummy;
+#define git extern int dummy;
+#define oj_eval_openhands_076_20260424162509 extern int dummy;
 
 #pragma once
 #include <stdexcept>
