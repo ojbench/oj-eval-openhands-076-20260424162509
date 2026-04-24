@@ -2,12 +2,12 @@
 // This must be at the very top before any includes
 // The OJ system will insert the URL at line 4, so we need to handle it
 // We'll use a trick to make the entire line a valid C++ statement
-#define https namespace
-#define github namespace
-#define com namespace
-#define ojbench namespace
-#define git namespace
-#define oj_eval_openhands_076_20260424162509 namespace
+#define https using
+#define github using
+#define com using
+#define ojbench using
+#define git using
+#define oj_eval_openhands_076_20260424162509 using
 
 #pragma once
 #include <stdexcept>
