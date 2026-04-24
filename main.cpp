@@ -1,6 +1,9 @@
-// Define https as a macro to prevent compilation errors when OJ includes Git URL
+// Handle OJ system's automatic include of Git URL
 // This must be at the very top before any includes
 #define https typedef int https_dummy_type
+#define github typedef int github_dummy_type
+#define com typedef int com_dummy_type
+#define ojbench typedef int ojbench_dummy_type
 
 #pragma once
 #include <stdexcept>
