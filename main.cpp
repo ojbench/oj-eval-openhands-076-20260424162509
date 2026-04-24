@@ -2,10 +2,8 @@
 #pragma once
 #include <stdexcept>
 
-// If OJ system includes a file with https:// URL, ignore it
-#ifndef https
-#define https  // dummy define to prevent compilation errors
-#endif
+// Define https as a macro to prevent compilation errors when OJ includes Git URL
+#define https typedef int https_dummy_type
 
 template<typename ValueType>
 class MyList {
