@@ -1,4 +1,11 @@
+// Handle OJ system's automatic include of Git URL
+#pragma once
 #include <stdexcept>
+
+// If OJ system includes a file with https:// URL, ignore it
+#ifndef https
+#define https  // dummy define to prevent compilation errors
+#endif
 
 template<typename ValueType>
 class MyList {
